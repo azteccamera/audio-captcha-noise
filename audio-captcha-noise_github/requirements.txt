@@ -1,0 +1,18 @@
+# 실험 환경: Windows 11, Python 3.11.14, NVIDIA GPU(8GB)
+# PyTorch와 SpeechBrain은 README의 '설치'를 따라 따로 설치합니다.
+numpy==2.2.6
+scipy==1.16.3
+pandas==2.3.3
+matplotlib==3.10.7
+tqdm==4.67.1
+soundfile==0.14.0
+librosa==0.11.0
+pystoi==0.4.1
+edge-tts==7.3.1
+faster-whisper==1.2.1
+ctranslate2==4.8.3
+huggingface-hub==0.36.0
+hyperpyyaml
+sentencepiece
+# Windows에서 faster-whisper를 GPU로 돌릴 때 필요한 cuBLAS (01 노트북 3-1 셀이 불러옴)
+nvidia-cublas-cu12; platform_system == "Windows"
